@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error - User ID Required</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                background-color: #f8f9fa;
+            }
+            .error-container {
+                background-color: white;
+                border: 1px solid #dc3545;
+                border-radius: 8px;
+                padding: 30px;
+                max-width: 600px;
+                margin: 0 auto;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #dc3545;
+                margin-bottom: 20px;
+            }
+            p {
+                color: #6c757d;
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+            .example {
+                background-color: #f8f9fa;
+                border: 1px solid #dee2e6;
+                border-radius: 4px;
+                padding: 10px;
+                font-family: monospace;
+                color: #495057;
+            }
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+        
+    <body>
+        <div class="error-container">
+            <h1>❌ Error: User ID Required</h1>
+            <p><strong>Problem:</strong> No user ID was specified in the URL.</p>
+            <p>To view a user profile, you need to include a user ID in the URL.</p>
+            
+            <h3>Correct URL format:</h3>
+            <div class="example">
+                http://127.0.0.1:8080/users/[USER_ID]
+            </div>
+            
+            <h3>Example:</h3>
+            <div class="example">
+                http://127.0.0.1:8080/users/b305ba4b-7f46-4e4b-9a12-788fa79f7f21
+            </div>
+            
+            <p>If you don't have a valid user ID, please contact the administrator.</p>
+            
+            <p><a href="/">← Back to homepage</a></p>
+        </div>
+    </body>
+</html>
