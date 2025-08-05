@@ -1,11 +1,68 @@
+# Swift Package Manager
 Packages
 .build
+.swiftpm
+
+# Xcode
 xcuserdata
 *.xcodeproj
 DerivedData/
+*.xcworkspace
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Database files
 db.sqlite
-.swiftpm
+*.db
+*.sqlite3
+
+# Environment files
 .env
 .env.*
 !.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Other
+*.orig
